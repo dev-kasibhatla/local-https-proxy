@@ -1,9 +1,8 @@
 # HTTPS Proxy Server
 
-This repository contains a simple HTTPS proxy server built using Node.js, Express, and the `http-proxy-middleware` library. 
-The server is designed to forward traffic from an HTTPS endpoint to a specified target URL. 
-It's useful for scenarios where you need to serve traffic over HTTPS while the target service is running over HTTP. Typically in dev environments where clear text traffic might not be permitted.
+A simple HTTPS proxy server built using Node.js, Express, and the [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware) library. Forwards traffic from an HTTPS endpoint to a specified target URL. 
 
+Useful for scenarios where you need to serve traffic over HTTPS while the target service is running over HTTP. Typically in dev environments where clear text traffic might not be permitted.
 ## Details
 
 - **HTTPS Support**: Allows serving traffic using SSL/TLS.
