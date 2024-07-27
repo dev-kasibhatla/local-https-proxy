@@ -36,5 +36,5 @@ const httpsOptions = {
 const httpsServer = https.createServer(httpsOptions, app);
 
 httpsServer.listen(PORT, HOST, () => {
-  console.log(`Proxy started at https://${HOST}:${PORT}`);
+  console.log(`Proxy is listening to traffic at https://${HOST}:${PORT} (from ${TARGET_URL})`);
 });
